@@ -1,0 +1,39 @@
+* {
+	font-family: "Tahoma";
+	color: darkblue;
+}
+
+h4 {
+	margin: 10px 0px 25px 0px;
+}
+
+label, input {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type=submit], button {
+	font-weight: bold;
+    padding: 5px 15px; 
+    background: #ccc;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+}
+
+input[type=password], input[type=text] {
+	width: 150px;
+	border: 2px solid #dfdfdf;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#global_info {
+	margin: 0px 0px 10px 0px;
+	padding: 10px;
+	text-align: center;
+	width: 560px;
+	border: 2px solid black;
+	background-color: darkgray;
+	color: white;
+	font-weight: bold;
+}

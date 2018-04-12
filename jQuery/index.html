@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#button_red').click(function() {
+					$('#paragraph_red').addClass('red');
+				});
+
+				$('#paragraph_focus').focus(function() {
+					$('#paragraph_focus').text("Focused!");
+				});
+
+				$('#button_val').click(function() {
+					$('input:text').val('Samuel');
+				});
+
+				$('#paragraph_text').click(function() {
+					$(this).text('Changed!');
+				});
+
+				$('#h3_html').hover(function() {
+					$(this).html('<h1>Hover to increase the font size of this text!</h1>');
+				});
+
+				$('#store_data').click(function() {
+					var value = $('#data_input').val();
+					$(this).data('Food', value);
+				});
+
+				$('#view_data').click(function() {
+					var data = $('#store_data').data('Food');
+					alert('The data was: ' + data);
+				});
+
+				$('#image_width_increase').click(function() {
+					$('#main_image').attr("width", "500");
+				});
+
+				$('#hide_image').click(function() {
+					$("#main_image").hide();
+				});
+
+				$('#show_image').click(function() {
+					$("#main_image").show();
+				});
+
+				$('#toggle_image').click(function() {
+					$("#main_image").toggle();
+				});
+
+				$('#append_text').click(function() {
+					var value = $('#paragraph_input').val();
+					$('#paragraph_append').append(value);
+					$('#paragraph_input').val('');
+				});
+
+				$('#hover_fadein').hover(function() {
+					$('#main_image').fadeIn("slow");
+				});
+
+				$('#hover_fadeout').hover(function() {
+					$('#main_image').fadeOut("slow");
+				});
+
+				$('#hover_slideup').hover(function() {
+					$(this).slideUp();
+				});
+
+				$('#hover_slidedown').hover(function() {
+					$(this).slideDown();
+				});
+
+				$('#hover_slidetoggle').hover(function() {
+					$(this).slideToggle();
+				});
+
+				$('#before').click(function() {
+					$(this).before('Text added!');
+				});
+
+				$('#after').click(function() {
+					$(this).after('Text added!');
+				});
+			})
+		</script>
+	</head>
+	<body>
+		<h3>.addClass</h3>
+		<p id="paragraph_red">Click the button to add class 'red' to this paragraph</p>
+		<button id="button_red">Click Me!</button>
+		<h3>.focus</h3>
+		<a href="#" id="paragraph_focus">Click Me!</p></a>
+		<h3>.val</h3>
+		<input type="text" name="test">
+		<button id="button_val">Auto-fill the field</button>
+		<h3>.text</h3>
+		<p id="paragraph_text">This paragraph will change when you click on it!</p>
+		<h3>.html</h3>
+		<h3 id="h3_html">Hover to increase the font size of this text!</h3>
+		<h3>.data</h3>
+		<input type="text" name="Data to store" id="data_input" placeholder="Type the data to store!">
+		<button id="store_data">Save Data</button>
+		<button id="view_data">View Data</button>
+		<h3>.attr</h3>
+		<p id="image_width_increase">Click to change image width to 500!</p>
+		<img src="main.png" id="main_image" alt="Main Image">
+		<h3>.hide</h3>
+		<button id="hide_image">Click to hide image!</button>
+		<h3>.show</h3>
+		<button id="show_image">Click to show image!</button>
+		<h3>.toggle</h3>
+		<button id="toggle_image">Click to toggle image!</button>
+		<h3>.before</h3>
+		<p id="before">Click Me to add a text before this sentence!</p>
+		<h3>.after</h3>
+		<p id="after">Click Me to add a text after this sentence!</p>
+		<h3>.append</h3>
+		<p id="paragraph_append"></p>
+		<input type="text" name="Text to write" id="paragraph_input" placeholder="Type any word, and click 'Enter'!">
+		<button id="append_text">Enter</button>
+		<h3>.fadeIn</h3>
+		<p id="hover_fadein">Hover Me!</p>
+		<h3>.fadeOut</h3>
+		<p id="hover_fadeout">Hover Me!</p>
+		<h3>.slideUp</h3>
+		<p id="hover_slideup">Hover Me!</p>
+		<h3>.slideDown</h3>
+		<p id="hover_slidedown">Hover Me!</p>
+		<h3>.slideToggle</h3>
+		<p id="hover_slidetoggle">Hover Me!</p>
+	</body>
+</html>

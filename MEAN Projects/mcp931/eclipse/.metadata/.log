@@ -1,0 +1,562 @@
+!SESSION 2016-12-07 09:16:42.049 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/samuel/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Users/samuel/Desktop/mcp931/eclipse -product org.eclipse.epp.package.java.product -keyring /Users/samuel/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-07 09:16:47.243
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-12-07 09:36:53.514
+!MESSAGE Failed to open search index.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-12-07 09:36:56.332
+!MESSAGE Error while extracting name and version from file: /Users/samuel/Desktop/mcp931/jars/libraries/it/unimi/dsi/fastutil/7.0.12_mojang/fastutil-7.0.12_mojang.jar
+
+!ENTRY org.eclipse.ui 4 0 2016-12-07 09:37:28.065
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Table.sendMeasureItem(Table.java:3088)
+	at org.eclipse.swt.widgets.Table.cellSize(Table.java:235)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Table.expansionFrameWithFrame_inView(Table.java:1182)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:917)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2016-12-07 09:50:33.486
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:917)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.recommenders.rcp.utils 4 0 2016-12-07 09:53:16.618
+!MESSAGE Failed to resolve selection in '=Client/src<me.realized.owo{OwO.java' at offset 71
+!STACK 1
+Java Model Exception: Java Model Status [Index out of bounds]
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:157)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:377)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:371)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromTypeRootInEditor(JavaSelectionUtils.java:147)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromEditor(JavaSelectionUtils.java:129)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromEditor(JavaSelectionUtils.java:112)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider.handleSelectionInEditor(JavaSelectionProvider.java:108)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider.access$1(JavaSelectionProvider.java:105)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider$1.run(JavaSelectionProvider.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+!SUBENTRY 1 org.eclipse.jdt.core 4 980 2016-12-07 09:53:16.619
+!MESSAGE Index out of bounds
+!SESSION 2016-12-07 09:58:21.206 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/samuel/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/samuel/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-07 09:58:27.883
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2016-12-07 10:05:27.898
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-07 10:05:27.898
+!MESSAGE A conflict occurred for ALT+ARROW_DOWN:
+Binding(ALT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineDown,Move Lines Down,
+		Moves the selected lines down,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@619f491,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.goToNextUnread,Go To Next Unread Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f36c8e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-07 10:05:27.898
+!MESSAGE A conflict occurred for INSERT:
+Binding(INSERT,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.toggleOverwrite,Toggle Overwrite,
+		Toggle overwrite mode,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71c31fdd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(INSERT,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.new.local.task,New Local Task,
+		,
+		Category(org.eclipse.mylyn.tasks.ui.commands,Task Repositories,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@323ebcc6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-07 10:05:27.898
+!MESSAGE A conflict occurred for ALT+ARROW_UP:
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineUp,Move Lines Up,
+		Moves the selected lines up,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bca7b6c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.goToPreviousUnread,Go To Previous Unread Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76fe6cdc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+!SESSION 2016-12-08 07:55:42.035 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/samuel/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/samuel/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-08 07:55:49.423
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 15:30:07.178
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:917)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 16:15:11.547
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalArgumentException: Argument cannot be null
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:63)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:243)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:224)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:167)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:200)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.runCommand(CocoaUIHandler.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.access$6(CocoaUIHandler.java:704)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler$8.widgetSelected(CocoaUIHandler.java:569)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1539)
+	at org.eclipse.swt.widgets.MenuItem.sendSelection(MenuItem.java:566)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5398)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5057)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5206)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:128)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.IllegalArgumentException: Argument cannot be null
+	at org.eclipse.swt.SWT.error(SWT.java:4378)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.SWT.error(SWT.java:4283)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1076)
+	at org.eclipse.swt.widgets.Display.removeFilter(Display.java:3891)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2917)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1112)
+	at org.eclipse.ui.internal.Workbench.access$19(Workbench.java:1028)
+	at org.eclipse.ui.internal.Workbench$19.run(Workbench.java:1331)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1329)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1302)
+	at org.eclipse.ui.internal.handlers.QuitHandler.execute(QuitHandler.java:36)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:290)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 46 more
+!SESSION 2016-12-08 17:38:53.032 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/samuel/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/samuel/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-08 17:38:59.611
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 17:44:32.088
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:917)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 17:55:27.191
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:917)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 17:55:27.259
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:917)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 17:55:47.120
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:917)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 17:59:35.046
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:11:52.001
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:12:50.070
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:16:16.952
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:16:32.224
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:18:05.265
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:19:23.213
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:25:31.101
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:25:47.280
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:32:47.252
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:33:06.357
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:33:14.526
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:37:42.996
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:37:51.971
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 18:39:59.929
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException

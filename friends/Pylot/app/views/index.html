@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login/Registration</title>
+	</head>
+	<body>
+		<div id="containers">
+			{% with messages = get_flashed_messages(category_filter=["global"]) %}
+				{% if messages %}
+					<p>{{ messages[0] }}</p>
+				{% endif %}
+			{% endwith %}
+
+			<div id="main_content">
+				<h3>Welcome!</h3>
+				<form action="/register" method="post">
+					<fieldset>
+						<legend>Register</legend>
+						<label>Name:</label>
+						<input type="text" name="name">
+						{% with messages = get_flashed_messages(category_filter=["name"]) %}
+							{% if messages %}
+								<p>{{ messages[0] }}</p>
+							{% endif %}
+						{% endwith %}
+						<label>Alias:</label>
+						<input type="text" name="alias">
+						{% with messages = get_flashed_messages(category_filter=["alias"]) %}
+							{% if messages %}
+								<p>{{ messages[0] }}</p>
+							{% endif %}
+						{% endwith %}
+						<label>Email:</label>
+						<input type="text" name="email">
+						{% with messages = get_flashed_messages(category_filter=["register_email"]) %}
+							{% if messages %}
+								<p>{{ messages[0] }}</p>
+							{% endif %}
+						{% endwith %}
+						<label>Password:</label>
+						<input type="password" name="pw">
+						{% with messages = get_flashed_messages(category_filter=["register_pw"]) %}
+							{% if messages %}
+								<p>{{ messages[0] }}</p>
+							{% endif %}
+						{% endwith %}
+						<label>Confirm PW:</label>
+						<input type="password" name="pw_conf">
+						{% with messages = get_flashed_messages(category_filter=["register_pw_conf"]) %}
+							{% if messages %}
+								<p>{{ messages[0] }}</p>
+							{% endif %}
+						{% endwith %}
+						<label>Date of Birth:</label>
+						<select name="year">
+							{% for i in range(1900, 2027) %}
+								<option value="{{ i }}">{{ i }}</option>
+							{% endfor %}
+						</select>
+						<select name="month">
+							{% for i in range(1, 13) %}
+								<option value="{{ i }}">{{ i }}</option>
+							{% endfor %}
+						</select>
+						<select name="day">
+							{% for i in range(1, 32) %}
+								<option value="{{ i }}">{{ i }}</option>
+							{% endfor %}
+						</select>
+						<input type="submit" value="Register">
+					</fieldset>
+				</form>
+				<form action="/login" method="post">
+					<fieldset>
+						<legend>Login</legend>
+						<label>Email:</label>
+						<input type="text" name="email">
+						{% with messages = get_flashed_messages(category_filter=["login_email"]) %}
+							{% if messages %}
+								<p>{{ messages[0] }}</p>
+							{% endif %}
+						{% endwith %}
+						<label>Password:</label>
+						<input type="password" name="pw">
+						{% with messages = get_flashed_messages(category_filter=["login_pw"]) %}
+							{% if messages %}
+								<p>{{ messages[0] }}</p>
+							{% endif %}
+						{% endwith %}
+						<input type="submit" value="Login">
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

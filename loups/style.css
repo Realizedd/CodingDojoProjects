@@ -1,0 +1,131 @@
+* {
+	width: 970px;
+	background-color: #e9e9e9;
+}
+
+#header {
+	 background-color: lightgrey;
+	 width: 950px;
+	 line-height: 10px;
+	 font-size: 40px;
+	 border-radius: 30px;
+	 padding-bottom: 5px;
+	 padding-top: 5px;
+	 vertical-align: top;
+}
+
+#header h3 {
+	background-color: lightgrey;
+	width: 300px;
+	margin-left: 20px;
+}
+
+#nev {
+	background-color: lightgrey;
+	display: inline-block;
+	border-radius: 30px;
+	width: 230px;
+	height: 330px;
+	margin-top: 30px;
+	padding-top: 20px;
+	vertical-align: top;
+}
+
+#nev a {
+	text-decoration: none;
+	background-color: lightgrey;
+}
+
+#nev > a {
+	margin-left: 10px;
+	background-color: lightgrey;
+	margin-top: 10px;
+}
+
+#nev ul {
+	background-color: lightgrey;
+	width: 100px;
+	padding-left: 26px;
+	margin-top: 0px;
+}
+
+#nev ul li {
+	background-color: lightgrey;
+	width: 100px;
+	right: 0px;
+}
+
+#nev ul li ul {
+	list-style-position: outside;
+	background-color: lightgrey;
+	width: 170px;
+}
+
+#nev ul li ul li {
+	background-color: lightgrey;
+	width: 170px;
+	margin-left: -7px;
+}
+
+#main {
+	display: inline-block;
+	background-color: grey;
+	border-radius: 30px;
+	width: 700px;
+	height: 520px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+#main h3 {
+	margin-left: 20px;
+	font-size: 30px;
+	width: 500px;
+	background-color: grey;
+}
+
+#main p {
+	margin-left: 20px;
+	width: 600px;
+	background-color: grey;
+}
+
+#main ul {
+	list-style-position: inside;
+	background-color: grey;
+	width: 500px;
+	padding-left: 15px;
+}
+
+#main ul li {
+	background-color: grey;
+	width: 500px;
+}
+
+#main ul li a {
+	background-color: grey;
+	width: 500px;
+}
+
+#main ul li a b {
+	background-color: grey;
+	width: 500px;
+}
+
+#footer {
+	display: inline-block;
+	background-color: lightgrey;
+	border-radius: 30px;
+	width: 950px;
+	margin-top: 30px;
+}
+
+#footer p {
+	width: 400px;
+	margin-left: 20px;
+	background-color: lightgrey;
+}
+
+#footer p a {
+	background-color: lightgrey;
+}

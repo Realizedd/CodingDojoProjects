@@ -1,0 +1,31 @@
+* {
+	font-family: "Tahoma";
+}
+
+h2 {
+	font-weight: normal;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: gray;
+}
+
+#main_content {
+	margin-top: 200px;
+}
+
+input {
+	margin: 20px;
+	padding: 20px 20px;
+	border: 2px solid darkgray;
+	width: 150px;
+	font-size: 15px;
+	font-weight: bold;
+	color: gray;
+}
+
+form {
+	text-align: center;
+}

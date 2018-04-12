@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ user.alias }}</title>
+	</head>
+	<body>
+		<div id="containers">
+			<div id="main_content">
+				<a href="/main">Home</a>
+				<form action="/logout" method="post">
+					<input type="submit" value="Logout">
+				</form>
+				<h3>{{ user.alias }}'s Profile</h3>
+				<h4>Name: {{ user.name }}</h4>
+				<h4>Email Address: {{ user.email }}</h4>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,8 @@
+package me.realized.owo;
+
+public class OwO {
+
+	public OwO() {
+		System.out.println("yeah boi");
+	}
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ninja to Cat</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				var images = ["cat0.png", "cat1.png", "cat2.png", "cat3.png", "cat4.png", "ninja0.png", "ninja1.png", "ninja2.png", "ninja3.png", "ninja4.png"];
+
+				$('.images').click(function() {
+					var current = $(this).attr('src');
+
+					for (var i = 0; i < images.length; i++) {
+						if (images[i] == current) {
+							if (images[i+1] !== undefined) {
+								$(this).attr('src', images[i+1]);
+							} else {
+								$(this).attr('src', images[0]);
+							}
+						}
+					}
+				});
+
+				$('#reset_button').click(function() {
+					$('.images').each(function() {
+						$(this).attr('src', $(this).attr('og-src'));
+					});
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<h3>jQuery - Assignment 3</h3>
+			<img src="cat0.png" og-src="cat0.png" class="images">
+			<img src="cat1.png" og-src="cat1.png" class="images">
+			<img src="ninja0.png" og-src="ninja0.png" class="images">
+			<img src="ninja1.png" og-src="ninja1.png" class="images">
+			<img src="ninja2.png" og-src="ninja2.png" class="images">
+			<h3 id="reset_button">Reset</h3>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+.red {
+	color: red;
+}
+
+#image_width_increase {
+	background-color: gray;
+	border: 5px solid darkgray;
+	color: white;
+	width: 200px;
+}

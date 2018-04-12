@@ -1,0 +1,11 @@
+package me.realized.owo;
+
+import net.minecraft.client.Minecraft;
+
+public class OwO {
+
+	public OwO() {
+		System.out.println("yeah boi");
+		Minecraft.getMinecraft().thePlayer.motionY += 1.0;
+	}
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration Form</title>
+	</head>
+	<body>
+		<div id="containers">
+			<div id="main_content">
+				<form action="/process" method="post">
+					<label>Email</label>
+					<input type="text" name="email">
+					{% with messages = get_flashed_messages(with_categories=true) %}
+					  {% if messages %}
+					    {% for category, message in messages %}
+					      {% if category == 'email' %}
+					        <p>{{ message }}</p>
+					      {% endif %}
+					    {% endfor %}
+					    </ul>
+					  {% endif %}
+					{% endwith %}
+					<label>First Name:</label>
+					<input type="text" name="first_name">
+					{% with messages = get_flashed_messages(with_categories=true) %}
+					  {% if messages %}
+					    {% for category, message in messages %}
+					      {% if category == 'first_name' %}
+					        <p>{{ message }}</p>
+					      {% endif %}
+					    {% endfor %}
+					    </ul>
+					  {% endif %}
+					{% endwith %}
+					<label>Last Name:</label>
+					<input type="text" name="last_name">
+					{% with messages = get_flashed_messages(with_categories=true) %}
+					  {% if messages %}
+					    {% for category, message in messages %}
+					      {% if category == 'last_name' %}
+					        <p>{{ message }}</p>
+					      {% endif %}
+					    {% endfor %}
+					    </ul>
+					  {% endif %}
+					{% endwith %}
+					<label>Password</label>
+					<input type="password" name="password">
+					{% with messages = get_flashed_messages(with_categories=true) %}
+					  {% if messages %}
+					    {% for category, message in messages %}
+					      {% if category == 'password' %}
+					        <p>{{ message }}</p>
+					      {% endif %}
+					    {% endfor %}
+					    </ul>
+					  {% endif %}
+					{% endwith %}
+					<label>Confirm Password</label>
+					<input type="password" name="password_confirmation">
+					{% with messages = get_flashed_messages(with_categories=true) %}
+					  {% if messages %}
+					    {% for category, message in messages %}
+					      {% if category == 'password_confirm' %}
+					        <p>{{ message }}</p>
+					      {% endif %}
+					    {% endfor %}
+					    </ul>
+					  {% endif %}
+					{% endwith %}
+					<input type="submit" value="Submit">
+					{% with messages = get_flashed_messages(with_categories=true) %}
+					  {% if messages %}
+					    {% for category, message in messages %}
+					      {% if category == 'success' %}
+					        <p>{{ message }}</p>
+					      {% endif %}
+					    {% endfor %}
+					    </ul>
+					  {% endif %}
+					{% endwith %}
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

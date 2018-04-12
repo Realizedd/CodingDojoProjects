@@ -1,0 +1,19 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+#header {
+	 background-color: yellow;
+	 width: 100px;
+	 height: 100px;
+	 display: inline;
+}
+
+#header p {
+	width: 100px;
+	 height: 100px;
+	background-color: yellow;
+	display: inline;
+}

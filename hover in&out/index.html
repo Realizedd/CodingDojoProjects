@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hover In and Out</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('.images').hover(function() {
+					$(this).attr('src', "image2.jpg");
+				}, function() {
+					$(this).attr('src', "image.jpg");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<img src="image.jpg" alt="Smoke" width="200" height="200" class="images">
+			<img src="image.jpg" alt="Smoke" width="200" height="200" class="images">
+			<img src="image.jpg" alt="Smoke" width="200" height="200" class="images">
+			<img src="image.jpg" alt="Smoke" width="200" height="200" class="images">
+			<img src="image.jpg" alt="Smoke" width="200" height="200" class="images">
+			<img src="image.jpg" alt="Smoke" width="200" height="200" class="images">
+			<img src="image.jpg" alt="Smoke" width="200" height="200" class="images">
+			<img src="image.jpg" alt="Smoke" width="200" height="200" class="images">
+		</div>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<table>
+    <thead>
+        <tr>
+            <th class='search_name'>
+                <span class="text">Search Name</span>
+            </th>
+            <th class='search_description'>
+                <span class="text">Search Description</span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for fav in user_favs %}
+        <tr>
+            <td class='search_name'>
+                <!-- <a href='/search/show_fav/{{ session['user_id'] }}/{{ fav['fav_id']}}'> {{ fav['fav_name'] }}</a> -->
+                <a href='{{fav['search_url']}}'> {{ fav['fav_name'] }}</a>
+
+            </td>
+            <td class='search_description'>
+                {{ fav['fav_description'] }}
+            </td>
+            <td>
+                <a href='#' target='_blank'>Share('localhost:5000/search/show_fav/{{ session['user_id'] }}/{{ fav['fav_id']}}')</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

@@ -1,0 +1,24 @@
+#containers {
+	width: 1000px;
+}
+
+.module {
+	display: inline-block;
+	border: 2px solid black;
+	height: 200px;
+	width: 200px;
+	padding: 5px;
+	margin-right: 25px;
+}
+
+#activity_box {
+	border: 2px solid black;
+	margin-top: 25px;
+	padding: 5px;
+	width: 930px;
+	height: 200px;
+}
+
+#activity_box p {
+	margin: 0px;
+}

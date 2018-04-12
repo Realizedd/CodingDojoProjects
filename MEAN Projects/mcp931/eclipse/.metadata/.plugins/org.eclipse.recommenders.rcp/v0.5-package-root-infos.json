@@ -1,0 +1,626 @@
+[
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8ca451fb7678aa4b0ab39b1b196e62c0db1669e1",
+    "jarFileModificationDate": "2015-06-09T10:19:40+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/ext/localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ad84cf6b5b0eb64a1fa28b8db25c2fdf48876f50",
+    "jarFileModificationDate": "2015-06-09T10:19:41+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bccfe5cfbbf0791e752754b964313f9079f748bf",
+    "jarFileModificationDate": "2015-06-09T10:19:41+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "1.10",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ba038efbc6d9e4a046927a7658413d0276895739",
+    "jarFileModificationDate": "2016-06-10T08:04:22+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/versions/1.10/1.10.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.paulscode.libraryjavasound",
+    "version": {
+      "major": 20101123,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5c5e304366f75f9eaa2e8cca546a1fb6109348b3",
+    "jarFileModificationDate": "2016-02-01T21:54:49+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "net.sf.jopt-simple.jopt-simple",
+    "version": {
+      "major": 4,
+      "minor": 6,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "306816fb57cf94f108a43c95731b08934dcae15c",
+    "jarFileModificationDate": "2016-02-01T21:54:48+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "24d079d67c23d4800f4b93a2fcb1e5325119db21",
+    "jarFileModificationDate": "2015-06-09T10:19:41+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.paulscode.soundsystem",
+    "version": {
+      "major": 20120107,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6",
+    "jarFileModificationDate": "2016-02-01T21:54:48+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "netty-1.6",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4b75825a06139752bd800d9e29c5fd55b8b1b1e4",
+    "jarFileModificationDate": "2016-05-11T04:13:02+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/com/mojang/netty/1.6/netty-1.6.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jna-3.4.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "803ff252fedbd395baffd43b37341dc4a150a554",
+    "jarFileModificationDate": "2016-02-01T21:54:54+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.paulscode.codecwav",
+    "version": {
+      "major": 20101023,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "12f031cfe88fef5c1dd36c563c0a3a69bd7261da",
+    "jarFileModificationDate": "2016-02-01T21:54:48+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.codec",
+    "version": {
+      "major": 1,
+      "minor": 9,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9ce04e34240f674bc72680f8b843b1457383161a",
+    "jarFileModificationDate": "2016-02-01T21:54:51+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/commons-codec/commons-codec/1.9/commons-codec-1.9.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.guava",
+    "version": {
+      "major": 17,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9c6ef172e8de35fd8d4d8783e4821e57cdef7445",
+    "jarFileModificationDate": "2016-02-01T21:54:54+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/com/google/guava/guava/17.0/guava-17.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jsr-305",
+    "version": {
+      "major": 3,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f7be08ec23c21485b9b5a1cf1654c2ec8c58168d",
+    "jarFileModificationDate": "2016-06-08T09:51:10+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "136a00f2b9358bfb52f489c42d0a46deb7142bd2",
+    "jarFileModificationDate": "2015-06-09T10:19:42+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4648ee0770667b93f6365c5f7c5b207f14772114",
+    "jarFileModificationDate": "2015-06-09T05:46:04+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/ext/jfxrt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.logging.log4j-core",
+    "version": {
+      "major": 2,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "beta9"
+    },
+    "jarFileFingerprint": "678861ba1b2e1fccb594bb0ca03114bb05da9695",
+    "jarFileModificationDate": "2016-02-01T21:54:51+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "lwjgl-2.9.2-nightly-20140822",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7707204c9ffa5d91662de95f0a224e2f721b22af",
+    "jarFileModificationDate": "2016-02-01T21:54:52+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/org/lwjgl/lwjgl/lwjgl/2.9.2-nightly-20140822/lwjgl-2.9.2-nightly-20140822.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.io",
+    "version": {
+      "major": 2,
+      "minor": 4,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b1b6ea3b7e4aa4f492509a4952029cd8e48019ad",
+    "jarFileModificationDate": "2016-02-01T21:54:48+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/commons-io/commons-io/2.4/commons-io-2.4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "realms-1.9.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e4237060f69ffe50e677f21a34e009ca5faf51ef",
+    "jarFileModificationDate": "2016-06-10T08:04:18+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/com/mojang/realms/1.9.0/realms-1.9.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f3d93802d12c22f6d0a480009cf5b9fd831609b6",
+    "jarFileModificationDate": "2015-06-09T10:19:40+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "886d0bc361b7516e26a05fd30d5d4fb83e029e35",
+    "jarFileModificationDate": "2015-08-02T15:35:20+09:00",
+    "location": "/System/Library/Java/Extensions/MRJToolkit.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.logging.log4j-api",
+    "version": {
+      "major": 2,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "beta9"
+    },
+    "jarFileFingerprint": "1dd66e68cccd907880229f9e2de1314bd13ff785",
+    "jarFileModificationDate": "2016-02-01T21:54:48+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0f54b4e73bb78f0716a94ba5ede298c1e4c19a9f",
+    "jarFileModificationDate": "2015-06-09T10:19:40+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/ext/nashorn.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "216611d1bcf20b6fb9f56754cdb4d8d5826660f7",
+    "jarFileModificationDate": "2015-06-09T10:19:40+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/ext/dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.paulscode.librarylwjglopenal",
+    "version": {
+      "major": 20100824,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "73e80d0794c39665aec3f62eee88ca91676674ef",
+    "jarFileModificationDate": "2016-02-01T21:54:49+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jinput-2.0.5",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "39c7796b469a600f72380316f6b1f11db6c2c7c4",
+    "jarFileModificationDate": "2016-02-01T21:54:48+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.logging",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f",
+    "jarFileModificationDate": "2016-02-01T21:54:48+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "platform-3.4.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e3f70017be8100d3d6923f50b3d2ee17714e9c13",
+    "jarFileModificationDate": "2016-02-01T21:54:52+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.paulscode.codecjorbis",
+    "version": {
+      "major": 20101023,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c73b5636faf089d9f00e8732a829577de25237ee",
+    "jarFileModificationDate": "2016-02-01T21:54:49+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "fastutil-7.0.12_mojang",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ba787e741efdc425fc5d2ea654b57c15fba27efa",
+    "jarFileModificationDate": "2016-05-11T00:11:37+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/it/unimi/dsi/fastutil/7.0.12_mojang/fastutil-7.0.12_mojang.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "65852c3b11e0d2b6fff9d2d3407114038793b159",
+    "jarFileModificationDate": "2015-06-09T10:19:40+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/ext/cldrdata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "io.netty.netty-all",
+    "version": {
+      "major": 4,
+      "minor": 0,
+      "micro": 23,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "0294104aaf1781d6a56a07d561e792c5d0c95f45",
+    "jarFileModificationDate": "2016-02-01T21:54:56+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5a7cf98232798a000d939c2315d335b166557b38",
+    "jarFileModificationDate": "2015-06-09T10:19:40+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.commons.lang3",
+    "version": {
+      "major": 3,
+      "minor": 3,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "90a3822c38ec8c996e84c16a3477ef632cbc87a3",
+    "jarFileModificationDate": "2016-02-01T21:54:52+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "lwjgl_util-2.9.2-nightly-20140822",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f0e612c840a7639c1f77f68d72a28dae2f0c8490",
+    "jarFileModificationDate": "2016-02-01T21:54:49+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.2-nightly-20140822/lwjgl_util-2.9.2-nightly-20140822.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4fbf7c52894814c7b6269b3c48f847fa12b92f1b",
+    "jarFileModificationDate": "2015-06-09T10:19:41+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "authlib-1.5.22",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "afaa8f6df976fcb5520e76ef1d5798c9e6b5c0b2",
+    "jarFileModificationDate": "2016-03-20T19:17:52+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/com/mojang/authlib/1.5.22/authlib-1.5.22.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.httpcomponents.httpclient",
+    "version": {
+      "major": 4,
+      "minor": 3,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "18f4247ff4572a074444572cee34647c43e7c9c7",
+    "jarFileModificationDate": "2016-02-01T21:54:50+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "47f7bc59276a57fc28aa7c3456221c557452e4ce",
+    "jarFileModificationDate": "2015-06-09T10:19:40+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/ext/zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.ibm.icu.core",
+    "version": {
+      "major": 51,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "63d216a9311cca6be337c1e458e587f99d382b84",
+    "jarFileModificationDate": "2016-02-01T21:54:56+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.httpcomponents.httpcore",
+    "version": {
+      "major": 4,
+      "minor": 3,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "31fbbff1ddbf98f3aa7377c94d33b0447c646b6e",
+    "jarFileModificationDate": "2016-02-01T21:54:51+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.gson",
+    "version": {
+      "major": 2,
+      "minor": 2,
+      "micro": 4,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a60a5e993c98c864010053cb901b7eab25306568",
+    "jarFileModificationDate": "2016-02-01T21:54:50+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "oshi-project.oshi-core",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9ddf7b048a8d701be231c0f4f95fd986198fd2d8",
+    "jarFileModificationDate": "2016-02-01T21:54:48+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2a168e4dd5f0385ccde79ce9edf6643e6d1cbc97",
+    "jarFileModificationDate": "2015-06-09T10:19:40+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/ext/sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7ecf376cdd6639df6a48430ddf9d8cd9784b6ece",
+    "jarFileModificationDate": "2015-06-09T10:19:40+09:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "net.java.jutils.jutils",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e12fe1fda814bd348c1579329c86943d2cd3c6a6",
+    "jarFileModificationDate": "2016-02-01T21:54:48+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.compress",
+    "version": {
+      "major": 1,
+      "minor": 8,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a698750c16740fd5b3871425f4cb3bbaa87f529d",
+    "jarFileModificationDate": "2016-02-01T21:54:49+09:00",
+    "location": "/Users/samuel/Desktop/mcp931/jars/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar",
+    "javaRuntime": false
+  }
+]

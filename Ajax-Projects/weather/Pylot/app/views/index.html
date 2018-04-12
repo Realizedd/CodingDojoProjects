@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weathers</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#search').submit(function(event) {
+					event.preventDefault();
+					var city = $('#search input[type=text]').val().replace(' ', '%20');
+
+					$.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=f92e3ab37bc71aa8d1ab3e17a88dd699', function(res) {
+						
+						if (res.name != undefined) {
+							$(document.body).append('<h2>' + res.name + '</h2>').append('<p> Temperature: ' + res.main.temp + '</p>');
+						}
+					}, 'json');
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<form id="search">
+			<input type="text" name="city">
+			<input type="submit" value="Search Weather">
+		</form>
+	</body>
+</html>

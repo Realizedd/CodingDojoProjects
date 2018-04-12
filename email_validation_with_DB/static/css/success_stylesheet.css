@@ -1,0 +1,30 @@
+#flash_message {
+	margin: 0px 0px 5px 0px;
+	padding: 10px;
+	text-align: center;
+	width: 300px;
+	border: 2px solid black;
+	background-color: green;
+	color: white;
+	font-family: "Tahoma";
+	font-weight: bold;
+}
+
+h4 {
+	margin: 0px;
+}
+
+.data {
+	display: block;
+	height: 25px;
+	margin: 0px 0px 0px 15px;
+}
+
+.data p {
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.data form {
+	display: inline-block;
+}

@@ -1,0 +1,161 @@
+#container {
+	width: 900px;
+	margin: 0px auto;
+	font-family: "Tahoma", "Georgia";
+}
+
+#header {
+	margin-top: -27px;
+	height: 100px;
+	overflow: hidden;
+	background-color: darkred;
+}
+
+#header img, h1, #right_header {
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px;
+}
+
+#header img {
+	margin-top: 20px;
+}
+
+#header h1 {
+	color: white;
+	margin-top: 40px;
+	font-size: 20px;
+	font-family: "Comic Sans MS";
+}
+
+#header li {
+	display: inline;
+	color: white;
+	font-size: 13px;
+}
+
+#header a {
+	color: gold;
+	font-size: 13px;
+}
+
+#right_header {
+	margin-left: 130px;
+}
+
+#right_header form {
+	margin-left: 60px;
+}
+
+#right_header input[type=submit] {
+	background-color: darkred;
+	border: 1px solid white;
+	color: white;
+	padding: 2px;
+}
+
+#nav_bar {
+	width: 900px;
+	height: 30px;
+	background-color: #eee;
+	padding-top: 5px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	overflow: hidden;
+}
+
+#nav_bar a {
+	color: gray;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+#nav_bar ul {
+	margin-left: -15px;
+	margin-top: 1px;
+}
+
+#nav_bar li {
+	display: inline;
+	top: 5px;
+	right: 150px;
+}
+
+#nav_bar ul li:last-child:after {
+	content: none;
+}
+
+#nav_bar ul li:after {
+	content: "|";
+	padding: 10px;
+}
+
+#main_content {
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+#side_bar, #right_content {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#side_bar {
+	width: 140px;
+	height: 235px;
+	margin-top: 20px 10px 20px 20px;
+	border: 1px solid darkgrey;
+	background-color: #eee;
+	padding: 20px 5px 0px 20px;
+	margin-left: 20px;
+}
+
+#side_bar ul {
+	margin-top: -15px;
+}
+
+#side_bar a {
+	color: darkred;
+	font-size: 15px;
+}
+
+#side_bar ul li {
+	color: darkred;
+	margin-left: -30px;
+	margin-top: 5px;
+}
+
+#right_content {
+	width: 600px;
+	height: 1000px;
+	margin-top: 20px 20px 20px 10px;
+}
+
+#right_content p {
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+#right_content h1 {
+	color: darkred;
+	font-size: 13px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+
+#right_content h3 {
+	color: darkred;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+
+#right_content ul, ol {
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+#right_content a {
+	color: darkred;
+}

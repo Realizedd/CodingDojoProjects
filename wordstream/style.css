@@ -1,0 +1,276 @@
+* {
+	margin: 0px;
+}
+
+#containers {
+	width: 1000px;
+	height: 600px;
+	margin: 0px auto;
+	font-family: "Tahoma", "Georgia";
+}
+
+/************ CONTAINERS END ************/
+
+#top_header a {
+	text-decoration: none;
+}
+
+#top_header li, img, h1 {
+	display: inline-block;
+}
+
+#top_header ul {
+	background-color: #eaeaea;
+	border: 1px solid #c3c3c3;
+	border-radius: 5px;
+	padding: 0px 15px 10px 15px;
+	position: relative;
+	bottom: 35px;
+}
+
+#nav_button {
+	display: inline-block;
+	padding: 0px 15px 10px 0px;
+}
+
+#nav_button li a {
+	font-size: 12px;
+	color: #757575;
+}
+
+#nav_button li {
+		color: #757575;
+}
+
+#login_button {
+	display: inline-block;
+	background-color: #0066b2;
+	color: #fff;
+	font-size: 12px;
+	padding: 7px 15px 7px 15px;
+	margin-left: 20px;
+	border: 1px solid #c3c3c3;
+	border-radius: 5px;
+	position: relative;
+	bottom: 30px;
+}
+
+#top_header h1 {
+	font-size: 30px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	position: relative;
+	top: 10px;
+	padding-right: 250px;
+}
+
+#top_header img {
+	position: relative;
+	top: 22px;
+}
+
+#bottom_header {
+	background-color: #0066b2;
+	padding: 13px;
+	margin-top: 20px;
+}
+
+#bottom_header h2 {
+	color: #fff;
+	font-weight: normal;
+}
+
+/************ HEADER END ************/
+
+#sidebar {
+	padding-top: 50px;
+	padding-left: 10px;
+	width: 250px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#sidebar a {
+	text-decoration: none;
+	color: #0085ab;
+}
+
+#top_sidebar h3 {
+	font-size: 17px;
+	padding-bottom: 10px;
+}
+
+#top_sidebar h2 {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#top_sidebar p {
+	font-size: 13px;
+	margin: 5px 0px 5px 0px;
+}
+
+#blue_boxed_button {
+	background-color: #0083e5;
+	border-radius: 5px;
+	padding: 10px 50px 10px 50px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+#orange_boxed_button {
+	background-color: #ff5a00;
+	border-radius: 5px;
+	padding: 10px 69px 10px 70px;
+	display: inline-block;
+}
+
+#top_sidebar hr {
+	width: 220px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#bottom_sidebar h2 {
+	font-size: 16px;
+	width: 180px;
+	color: #1682a1;
+	position: relative;
+	bottom: 230px;
+	margin-left: 10px;
+}
+
+#bottom_sidebar h3 {
+	font-size: 13px;
+	padding: 4px;
+	background-color: #00619c;
+	border: 0px solid #fff;
+	border-radius: 3px;
+	width: 150px;
+	margin-left: 15px;
+	position: relative;
+	bottom: 220px;
+	color: #fff;
+	font-weight: normal;
+}
+
+#bottom_sidebar p {
+	font-size: 12px;
+	width: 200px;
+	color: #545454;
+	font-weight:bold;
+	position: relative;
+	bottom: 230px;
+	margin: 10px;
+}
+
+/************ SIDEBAR END ************/
+
+#home_box {
+	margin-top: 10px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#home_box p {
+	vertical-align: top;
+	color: #0085ab;
+}
+
+#home_box p, img {
+	display: inline-block;
+}
+
+#phone_box {
+	vertical-align: top;
+	margin-left: 400px;
+	margin-top: 10px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#number_box {
+	display: inline-block;
+}
+
+#number_box h3 {
+	color: #00b5ff;
+}
+
+#number_box p {
+	color: #545454;
+}
+
+#main_content {
+	width: 700px;
+	display: inline-block;
+}
+
+#main_content img {
+	display: inline-block;
+}
+
+#main_content ul {
+	padding-left: 17px;
+	list-style-type: square;
+}
+
+#main_content p {
+	font-size: 13px;
+	margin: 5px 0px 5px 0px;
+}
+
+#main_content a {
+	color: #0085ab;
+}
+
+#main_content h4 {
+	margin: 10px 0px 10px 0px;
+	color: #1981b3;
+}
+
+#main_content hr {
+	margin-top: 10px;
+}
+
+#boxed_content {
+	border: 5px solid #6fbacf;
+	display: inline-block;
+	height: 150px;
+}
+
+#boxed_content h6 {
+	font-size: 14px;
+	font-weight: normal;
+	width: 500px;
+}
+
+#boxed_content img, h4, h6 {
+	display: inline-block;
+}
+
+#boxed_content h4 {
+	color: #1981b3;
+	font-size: 18px;
+	position: relative;
+	left: 60px;
+	bottom: 90px;
+}
+
+#starter_button {
+	text-align: center;
+	background-color: #8dcc00;
+	border-radius: 7px;
+	border: 2px solid #417a00;
+	padding: 10px;
+	width: 200px;
+	margin-left: 60px;
+	display: inline-block;
+	font-weight: normal;
+	color: #fff;
+	position: relative;
+	bottom: 30px;
+}
+
+/************ MAIN_CONTENT END ************/

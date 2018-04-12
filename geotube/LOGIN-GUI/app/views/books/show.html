@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Add Book and Review</title>
+	</head>
+	<body>
+		<div id="containers">
+			<div id="main_content">
+				<a href="/books">Home</a>
+				<form action="/logout" method="post">
+					<input type="submit" value="Logout">
+				</form>
+
+				<h3>{{ book.title }}</h3>
+				<h3>Author: {{ book.name }}</h3>
+				<h3>Reviews:</h3>
+				{% for review in reviews %}
+					<div class="rating">
+						{% for i in range(review.rating) %}
+							<p style="display:inline-block;">*</p>
+						{% endfor %}
+					</div>
+					<a href="/users/{{ review.user_id }}">{{ review.reviewer }}</a>
+					<p style="display:inline-block;">says: {{ review.message }}</p>
+					<p>Posted on: {{ review.created_at }}</p>
+				{% endfor %}
+				<h3>Add a Review:</h3>
+				<form action="/post_review" method="post">
+					<input type="hidden" name="id" value="{{ book.id }}">
+					<textarea name="message"></textarea>
+					<label>Rating:</label>
+					<select name="rating">
+						<option value='1'>1</option>
+						<option value='2'>2</option>
+						<option value='3'>3</option>
+						<option value='4'>4</option>
+						<option value='5'>5</option>
+					</select>
+					<label>stars.</label>
+					<input type="submit" value="Submit Review">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

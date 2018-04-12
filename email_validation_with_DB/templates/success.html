@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Email Validation</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/success_stylesheet.css') }}">
+	</head>
+	<body>
+		{% with messages = get_flashed_messages() %}
+		  {% if messages %}
+		  	{% for message in messages %}
+		       <p id="flash_message">{{ message }}</p>
+		  	{% endfor %}
+		  {% endif %}
+		{% endwith %}
+
+		<h4>Email Addresses Entered:</h4>
+		{% with datas = data %}
+		  {% if datas %}
+		    {%for content in datas %}
+		    <span class="data">
+		      {% if content is mapping %}
+				<p>{{ content['email'] }}</p>
+				<p>{{ content['created_at'].strftime("%Y/%m/%d %H:%M %p") }}</p>
+				<form action="/delete" method="post">
+		        	<input type="hidden" name="id" value="{{ content['id'] }}">
+		        	<input type="hidden" name="email" value="{{ content['email'] }}">
+		        	<input type="submit" value="Delete">
+		        </form>    
+		      {% endif %}
+		      {% if content is string %}
+		        <p>{{ content }}</p>
+		      {% endif %}
+		    </span>
+		    {% endfor %}
+		  {% endif %}
+		{% endwith %}
+	</body>
+</html>

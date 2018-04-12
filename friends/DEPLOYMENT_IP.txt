@@ -1,0 +1,8 @@
+http://54.186.135.232/
+
+all passwords are set to: password
+test emails for login:
+a@a.a
+b@b.b
+c@c.c
+d@d.d

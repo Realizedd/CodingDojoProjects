@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Counter</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/hackers_stylesheet.css') }}">
+	</head>
+	<body>
+		<div id="containers">
+			<div id="main_content">
+				<h1>Visit Counter</h1>
+				<h2 id="counts">{{session['counts']}} Times.</h2>
+				<form action="/hackers", method="post">
+					<input type="submit" value="Reset Counter">
+				</form>				
+			</div>
+		</div>
+	</body>
+</html>

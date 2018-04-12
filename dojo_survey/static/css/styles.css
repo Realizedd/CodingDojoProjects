@@ -1,0 +1,18 @@
+* {
+	font-family: "Tahoma"
+}
+
+#main_content {
+	width: 250px;
+	padding: 100px;
+	border: 2px solid black;
+}
+
+#main_content h3 {
+	color: #cdcdcd;
+}
+
+p {
+	margin: 0px;
+	display: inline-block;
+}

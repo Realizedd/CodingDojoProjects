@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Samuel's Blog</title>
+		<meta name="description" content="View My Life!"> 
+	</head>
+	<body>
+		<div id="header">
+			<h1>Samuel's Blog</h1>
+		</div>
+
+		<div id="main-content">
+			<h3>(April 1, 2016) Pellentesque bibendum magna nec lectus malesuada aliquet?</h3>
+			<p>Nulla non pretium ipsum. <span class="important">Proin fermentum</span> diam vel urna dapibus, et accumsan neque semper. Cras consequat metus massa. Vestibulum quis convallis risus. Curabitur ac erat orci. Integer eget libero consectetur, mollis enim vel, tempus ex. Duis efficitur ac elit nec dapibus.</p>
+			<ul>
+				<li>Suspendisse</li>
+				<li>Maecenas</li>
+				<li>Aenean</li>
+			</ul> 
+			<p>Maecenas eget tortor vitae risus venenatis maximus. Suspendisse magna velit, pulvinar id suscipit sit amet, tempus eu mauris. In dui augue, vulputate sit amet tellus id, tincidunt ullamcorper dui. Sed scelerisque commodo risus, at bibendum tellus sodales gravida. Maecenas volutpat est id enim dignissim, at convallis tortor commodo. Aenean lacinia diam risus, at tristique purus hendrerit in. Donec pretium pharetra velit, nec tincidunt massa aliquam vitae. Vestibulum elementum lorem libero, vel ullamcorper nunc convallis finibus. Nullam consequat eros consequat odio placerat, eget facilisis velit congue.</p>
+
+			<h3>(March 27, 2016) Vestibulum vitae vehicula justo</h3>
+			<p>Vestibulum at mi lacus. Pellentesque faucibus, odio in aliquam gravida, diam massa finibus ipsum, quis dictum ex sem vitae ipsum. Pellentesque nulla metus, cursus quis eros ut, gravida condimentum nisl. Nulla eget ligula sit amet ante dignissim molestie ac eget sapien. Aenean molestie nulla eget libero dictum sodales. Mauris condimentum dui augue, eget feugiat odio euismod vel. Integer tincidunt malesuada ipsum. Nunc accumsan pretium urna venenatis maximus. Curabitur mi metus, interdum quis venenatis quis, porta vitae lorem. Pellentesque in mi id tellus gravida commodo ut tincidunt velit. Sed ornare aliquam felis, in pretium sem. Fusce scelerisque vehicula ornare. Suspendisse id placerat dolor. Nam congue tortor eu aliquet ultrices.</p>
+
+			<h3>(March 15, 2016) Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</h3>
+			<p>Etiam rutrum quam ultricies, tempus turpis sit amet, hendrerit tortor. Morbi quis justo egestas, scelerisque ante ac, pretium sem. Phasellus blandit tincidunt dignissim. Suspendisse luctus vitae ligula eu congue. Sed eget iaculis diam. Morbi vitae dui sem. Quisque ultrices orci erat, id elementum quam laoreet vitae. Fusce suscipit euismod augue, vel tempus urna ornare et. Suspendisse nec eleifend tellus. Proin vehicula a diam vel efficitur.</p>
+
+			<h2>Donations</h2>
+			<a href="">Click Here to Donate!</a>
+			<br>
+			<p>Latest Donators</p>
+			<table>
+				<thead>
+					<tr>
+						<th>Alex</th>
+						<th>Jason</th>
+						<th>Andrew</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>$10</td>
+						<td>$5</td>
+						<td>$5</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div id="footer">
+			<form action="proccess.php" method="post">
+				<h2>Survey</h2>
+				<p>Share your thoughts!</p>
+				<label>Name: <input type="text" name="name"></label>
+				<p>Age:</p>
+				<label><input type="radio" name="age" value=1>1-10</label>
+				<label><input type="radio" name="age" value=10>10-30</label>
+				<label><input type="radio" name="age" value=30>30-60</label>
+				<label><input type="radio" name="age" value=60>60-100</label>
+				<label><input type="radio" name="age" value=100>100+</label>
+				<br>
+				<label>Gender:
+					<select name="gender">
+			    		<option value="male">Male</option>
+			    		<option value="female">Female</option>
+					</select>
+				</label>
+				<br>
+				<label>Comment: <textarea name="review"></textarea></label>
+				<br>
+				<p>Did you enjoy reading?</p>
+				<label><input type="checkbox" name="boolean" value="true">Yes</label>
+				<label><input type="checkbox" name="boolean" value="false">No</label>
+				<br><br>
+				<input type="submit" value="Submit Survey">
+			</form>
+		</div>
+	</body>
+</html>

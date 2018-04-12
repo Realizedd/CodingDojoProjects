@@ -1,0 +1,25 @@
+#container {
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 900px;
+}
+
+#container img, h3 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.images {
+	display: inline-block;
+	width: 220px;
+	height: 220px;
+}
+
+#restore_button {
+	background-color: green;
+	color: white;
+	border: 2px solid black;
+	width: 100px;
+	text-align: center;
+	font-weight: normal;
+}

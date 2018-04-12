@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login and Registration</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/dashboard_stylesheet.css') }}">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#global_info').hide();
+				$('#global_info').slideDown().delay(1500).slideUp();
+			});
+		</script>
+	</head>
+	<body>
+		{% with global = get_flashed_messages(with_categories=true) %}
+			{% if global %}
+				{% for category, message in global %}
+					{% if 'global' in category %}
+						<p id="{{ category }}">{{ message }}</p>
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+		{% endwith %}
+		<form action="/process" method="post">
+			<input type="hidden" name="action" value="logout">
+			<input type="submit" value="Log Out">
+		</form>
+	</body>
+</html>

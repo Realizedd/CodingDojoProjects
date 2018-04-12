@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Wall</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/wall_stylesheet.css') }}">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#global_warning').hide();
+				$('#global_warning').slideDown().delay(1500).slideUp();
+
+				$('#global_info').hide();
+				$('#global_info').slideDown().delay(1500).slideUp();
+			});
+		</script>
+	</head>
+	<body>
+		<div id="containers">
+			{% with global = get_flashed_messages(with_categories=true) %}
+				{% if global %}
+					{% for category, message in global %}
+						{% if 'global' in category %}
+							<p id="{{ category }}">{{ message }}</p>
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+			{% endwith %}
+
+			<div id="header">
+				<h3>CodingDojo Wall</h3>
+				<h4>Welcome, {{ user[0]['first_name'] }}</h4>
+				<form action="/logout" method="post">
+					<input type="submit" value="Log Out">
+				</form>
+			</div>
+
+			<div id="main_content">
+				<form action="/post_message", method="post">
+					<label>Post a message</label>
+					<textarea name="message" rows="6" cols="130"></textarea>
+					<input type="submit" value="Post a message" id="message_post_button">
+				</form>
+
+				{% if messages %}
+					{% for message in messages %}
+						<div class="messages">
+							<h4>{{ message.owner }} - {{ message.creation }}</h4>
+
+							<form action="/delete_message" method="post">
+								<input type="hidden" name="message_id" value="{{ message['id'] }}">
+								<input type="submit" value="Delete">
+							</form>
+
+							<p>{{ message.message }}</p>
+
+							{% for comment in comments %}
+								{% if comment['id'] == message['id'] %}
+									<div class="comments">
+										<h4>{{ comment.owner }} - {{ comment.creation }}</h4>
+										<p>{{ comment.comment }}</p>
+									</div>
+								{% endif %}
+							{% endfor %}
+
+							<form action="/post_comment" method="post" class="comment_form">
+								<input type="hidden" name="message_id" value="{{ message['id'] }}">
+								<textarea name="message" rows="4" cols="130"></textarea>
+								<input type="submit" value="Post a comment" class="comment_button">
+							</form>
+						</div>
+					{% endfor %}
+				{% endif %}
+			</div>
+		</div>
+	</body>
+</html>

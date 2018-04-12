@@ -1,0 +1,66 @@
+* {
+	font-family: "Tahoma";
+	color: darkblue;
+}
+
+h4 {
+	margin: 10px 0px 10px 0px;
+}
+
+input[type=submit], button {
+	font-weight: bold;
+    padding: 5px 15px; 
+    background: #ccc;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+}
+
+#sub_content {
+	margin: 0px 0px 0px 10px;
+	width: 200px;
+	border: 2px solid darkblue;
+	padding: 10px;
+	display: inline-block;
+}
+
+#sub_content input {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#main_content {
+	display: inline-block;
+	border: 2px solid darkblue;
+	padding: 10px;
+	width: 700px;
+	vertical-align: top;
+	height: 500px;
+	margin-left: 10px;
+}
+
+#flash_message {
+	margin: 0px 0px 10px 10px;
+	padding: 10px;
+	text-align: center;
+	width: 939px;
+	border: 2px solid black;
+	background-color: #4af74a;
+	color: white;
+	font-family: "Tahoma";
+	font-weight: bold;
+}
+
+.data {
+	display: block;
+	height: 40px;
+	margin: 0px 0px 0px 15px;
+}
+
+.data p {
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.data form {
+	display: inline-block;
+}

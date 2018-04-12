@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Great Number Game</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index_stylesheet.css') }}">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script>
+			var result = "{{result}}";
+			var answer = "{{answer}}";
+
+			$(document).ready(function() {
+				console.log("Result is " + result + ", Answer is " + answer);
+
+				$('#wrong_answer_box').hide();
+				$('#answer').hide();
+
+				if (result == "1") {
+					$('#wrong_answer_box').show();
+					$("#too_low").hide();
+				} else if (result == "2") {
+					$("#too_high").hide();
+					$('#wrong_answer_box').show();
+				} else if (result == "0") {
+					$('#answer').show();
+					$('#submit_box').css('background-color', 'green');
+					$('#submit_box').css('border', '2px solid black');
+					$('#submit_box input[type=text]').hide();
+					$('#submit_box input[type=submit]').val('Play again!');
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<h3>Welcome to the Great Number Game!</h3>
+		<p>I am thinking of a random number between 1 and 100</p>
+		<p>Take a guess!</p>
+
+		<div id="wrong_answer_box">
+			<p id="too_high">Too High!</p>
+			<p id="too_low">Too Low!</p>
+		</div>
+
+		<div id="submit_box">
+			<p id="answer">{{answer}} was the number!</p>
+			<form action="/", method="post">
+				<input type="text" name="guess">
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</body>
+</html>

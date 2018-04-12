@@ -1,0 +1,248 @@
+* {
+	margin: 0px;
+}
+
+.buttons {
+	border: 5px solid darkgray;
+	background-color: gray;
+	text-align: center;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+::-webkit-input-placeholder {
+    font-size: 20px;
+}
+
+:-moz-placeholder {
+   font-size: 20px;
+   opacity: 1;
+}
+
+::-moz-placeholder {
+   font-size: 20px;
+   opacity: 1;
+}
+
+:-ms-input-placeholder {
+   font-size: 20px;
+}
+
+#containers {
+	margin: 0px auto;
+	width: 900px;
+	padding: 30px 0px 0px 100px;
+	font-family: "Tahoma", "Georgia";
+	background-color: #fbfbfb;
+}
+
+#menu_image {
+	border-radius: 5px 0px 0px 5px;
+}
+
+#top_nav {
+	width: 850px;
+	margin-bottom: 30px;
+}
+
+#top_nav a {
+	text-decoration: none;
+	color: #454545;
+}
+
+#top_nav ul {
+	background-color: #f0f0f0;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	height: 60px;
+	padding: 0px;
+}
+
+#top_nav ul li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#top_nav ul li:nth-child(n + 2) {
+	border-right: 1px solid #e5e5e5;
+	padding: 20px 20px 20px 20px;
+	font-weight: 500;
+}
+
+#top_nav ul li:last-of-type {
+	border-right: none;
+	padding: 0px 0px 0px 100px;
+}
+
+#top_nav ul li form input[type="text"] {
+	border-radius: 10px 0px 0px 10px;
+	border: 0px solid;
+	height: 17px;
+}
+
+#top_nav ul li form input[type="submit"] {
+	border-radius: 0px 6px 6px 0px;
+	border: 0px solid;
+	margin-left: -4px;
+	width: 21px;
+	height: 19px;
+	background-color: #4b84ab;
+	color: #fff;
+}
+
+#top_content ul {
+	margin-top: -3px;
+	padding-bottom: 15px;
+	width: 810px;
+	background-color: #404040;
+	border-bottom: 1px solid #d6d6d6;
+	border-radius: 0px 0px 5px 5px;
+}
+
+#top_content ul li {
+	margin-top: 10px;
+	display: inline-block;
+	font-size: 13px;
+	vertical-align: middle;
+}
+
+#middle_content {
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border: 1px solid #d6d6d6;
+	border-radius: 5px 5px 0px 0px;
+	background-color: #fefefe;
+	width: 850px;
+}
+
+#middle_content h2 {
+	margin-right: 20px;
+	padding: 20px;
+	padding-right: 0px;
+	font-size: 27px;
+	font-weight: lighter;
+	color: #c1c1c1;
+	display: inline-block;
+}
+
+#middle_content_button {
+	width: 200px;
+	font-size: 15px;
+	font-weight: normal;
+	display: inline-block;
+	background-color: #0080a5;
+	border: 1px solid #aeaeae;
+	border-radius: 3px;
+	color: #fff;
+	padding: 7px;
+}
+
+.box_shared_options {
+	display: inline-block;
+	vertical-align: top;
+	width: 170px;
+	padding: 40px 10px 40px 20px;
+	border-right: 1px solid #d6d6d6;
+}
+
+.box_shared_options:first-of-type {
+	margin-left: 20px;
+}
+
+.box_shared_options:last-of-type {
+	border-right: none;
+}
+
+.box_shared_options h4 {
+	margin: 0px;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.box_shared_options p {
+	font-size: 11px;
+	color: #3c3c3c;
+	padding: 10px 0px 10px;
+}
+
+.box_shared_options img {
+	vertical-align: middle;
+}
+
+.box_shared_options a {
+	text-decoration: none;
+}
+
+#second_box p {
+	margin-bottom: 10px;
+}
+
+#third_box p {
+	margin-bottom: 6px;
+}
+
+#forth_box p {
+	margin-bottom: 17px;
+}
+
+#bottom_contents {
+	border: 1px solid lightgray;
+	border-radius: 0px 0px 5px 5px;
+	background-color: #f9f9f9;
+	width: 850px;
+	margin-bottom: 40px;
+}
+
+.bottom_button {
+	width: 128px;
+	background-color: #3e9ce3;
+	font-weight: normal;
+	color: #fff;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid white;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.bottom_boxes {
+	display: inline-block;
+	vertical-align: top;
+	width: 130px;
+	padding-right: 10px;
+}
+
+.bottom_boxes h4 {
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+
+.bottom_boxes ul {
+	list-style-type: none;
+	padding-top: 5px;
+	padding-left: 0px;
+}
+
+.bottom_boxes hr {
+	color: #d6d6d6;
+	margin: 10px 0px 10px 0px;
+}
+
+.bottom_boxes ul li {
+	font-size: 12px;
+	color: #3c3c3c;
+	padding: 5px 0px 5px;
+}
+
+#contact_and_copyright {
+	border-top: 1px solid darkgray;
+	margin-top: 40px;
+	padding: 10px 0px;
+	width: 850px;
+	font-size: 10px;
+	color: #3c3c3c;
+}
+
+#contact_and_copyright a {
+	color: #0095c1;
+}

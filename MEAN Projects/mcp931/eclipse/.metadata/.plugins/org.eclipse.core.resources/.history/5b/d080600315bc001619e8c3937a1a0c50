@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="JavaSE-1.6">
+	<exclude-output/>
+	<contentEntry url="file://$MCP_LOC$/src/minecraft"/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="jsr305-3.0.1.jar" scope="COMPILE">
+		<srcroot url="file://$MCP_LOC$/jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar"/>
+	</lib>
+</component>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Friends</title>
+	</head>
+	<body>
+		<div id="containers">
+			<div id="main_content">
+				<form action="/logout" method="post">
+					<input type="submit" value="Logout">
+				</form>
+				<h3>Hello, {{ user.alias }}!</h3>
+				<h4>Here is the list of your friends:</h4>
+				{% if friends %}
+				<table>
+					<tr>
+						<th>Alias</th>
+						<th>Actions</th>
+					</tr>
+					{% for friend in friends %}
+					<tr>
+						{% if user.id == friend.friend_id %}
+							<td>{{ friend.creator }}</td>
+							<td>
+								<a href="/user/{{ friend.owner_id }}">View Profile</a>
+								<form action="/remove_friend" method="post">
+									<input type="hidden" name="id" value="{{ friend.owner_id }}">
+									<input type="submit" value="Remove as Friend">
+								</form>
+							</td>
+						{% else %}
+							<td>{{ friend.friend }}</td>
+							<td>
+								<a href="/user/{{ friend.friend_id }}">View Profile</a>
+								<form action="/remove_friend" method="post">
+									<input type="hidden" name="id" value="{{ friend.friend_id }}">
+									<input type="submit" value="Remove as Friend">
+								</form>
+							</td>
+						{% endif %}
+					</tr>
+					{% endfor %}
+				</table>
+				{% else %}
+					<p>You don't have friends yet.</p>
+				{% endif %}
+				<h4>Other Users not on your friend's list:</h4>
+				{% if users %}
+					<table>
+					<tr>
+						<th>Alias</th>
+						<th>Actions</th>
+					</tr>
+					{% for other in users %}
+						<tr>
+							<td><p>{{ other.alias }}</p></td>
+							<td>
+								<form action="/add_friend" method="post">
+									<input type="hidden" name="id" value="{{ other.id }}">
+									<input type="submit" value="Add as Friend">
+								</form>
+							</td>
+						</tr>
+					{% endfor %}
+				{% endif %}
+			</div>
+		</div>
+	</body>
+</html>
